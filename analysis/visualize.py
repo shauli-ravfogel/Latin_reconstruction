@@ -12,7 +12,7 @@ def is_ascii(s):
 
 
 
-def visaulize(embedding_filename, tokens = True):
+def visaulize(embedding_filename, tokens = False):
 	
 		"""
 		plot the TSNE projection of the embedded vectors of the verbs in the training set.
@@ -32,7 +32,7 @@ def visaulize(embedding_filename, tokens = True):
 	
 		embeddings, words, labels = [], [], []
 		
-		for line in lines[:3000]:
+		for line in lines[:1500]:
 			line = line.strip().split("\t")
 			if len(line) < 2 and tokens:
 				continue
@@ -43,8 +43,9 @@ def visaulize(embedding_filename, tokens = True):
 			else:
 				word, vector_string = line
 				words.append(word)
-				
-			vec = [float(v) for v in vector_string.split(" ")]
+			vec = vector_string.split(" ") 
+			if vec[0] == "0.000": continue
+			vec = [float(v) for v in vec]
 			embeddings.append(vec)
 			
 			
@@ -67,10 +68,10 @@ def visaulize(embedding_filename, tokens = True):
 		
 
 		for i, w in enumerate(words):
-			if tokens or i % 1 == 0:
+			if i % 15 == 0 and True:
 				try:
 					#print w
-					ax.annotate(w, (xs[i],ys[i]), size = 18)
+					ax.annotate(w, (xs[i],ys[i]), size = 14)
 				except: 
 					print(w)
 					pass
@@ -80,7 +81,6 @@ def visaulize(embedding_filename, tokens = True):
 
 
 if __name__ == '__main__':
-		lang = sys.argv[1]
-		visaulize("embeddings." + lang + ".txt")
+		visaulize("semantic_rep-cyclic.txt")
 		#visaulize("states2.txt", tokens = False)
 

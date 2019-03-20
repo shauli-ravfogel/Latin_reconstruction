@@ -137,7 +137,7 @@ accent	accent	accento	acento	acento	accentum
 -	-	-	-	acidente	accidentem
 -	-	-	-	acidência	accidentiam
 -	accepter	accettare	aceptar	aceitar	accipere
--	autour	astore	azor	açor	accipitrem
+-	autour	astore	azor	açor	asturem
 -	-	-	aclarar	aclarar	acclarare
 -	-	accline	-	-	acclinem
 -	-	-	-	aclividade	acclivitatem
@@ -309,7 +309,7 @@ rugină	-	ruggine	erúgine	aerugita	aeruginem
 -	-	-	-	estimativa	aestimativatem
 -	estival	estivo	estío	estio	aestivum
 etate	âge	età	edad	idade	aetatem
--	éther	etere	-	éter	aetheraaetherem
+-	éther	etere	-	éter	aetherem
 -	éthéré	etereo	-	etéreo	aetherium
 ev	-	evo	evo	evo	aevum
 -	affection	affezione	afección	afeição	affectionem
@@ -429,7 +429,7 @@ umbla	aller	andare	andar	andar	ambulare
 -	-	-	-	amentar	amentare
 -	-	amento	amento	amento	amentum
 -	-	-	anda	-	amitem
-ametist	améthyste	ametista	amatista	-	amethystum
+ametist	améthyste	ametista	amatista	-	amethystam
 amică	amie	amica	amiga	amiga	amicam
 amical	amical	amicale	amical	-	amicalem
 amiciție	-	amicizia	amicicia	amicícia	amicitiam
@@ -587,7 +587,7 @@ argint	argent	argento	argento	argento	argentum
 arguție	argutie	arguzia	argucia	argúcia	argutiam
 arete	-	ariete	ariete	aríete	arietem
 -	-	-	arietar	-	arietare
-armânt	-	-	-	-	armamentum
+armânt	-	armamento	-	-	armamentum
 armar	-	armadio	armario	-	armarium
 -	-	-	armazón	-	armationem
 armat	armé	armato	armado	armado	armatum
@@ -765,7 +765,7 @@ bate	battre	battere	batir	bater	battuere
 -	-	-	belígero	-	belligerum
 -	belligérer	-	-	-	belligerare
 -	beau	bello	bello	belo	bellum
--	belluaire	belva	-	beluaria	beluam
+-	belluaire	belva	-	beluaria	belvam
 -	bénir	benedire	bendecir	bendizer	benedicere
 -	bénédiction	benedizione	bendición	bênção	benedictionem
 -	benoît	benedetto	bendicho	-	benedictum
@@ -1160,7 +1160,7 @@ coit	-	-	-	coito	coitum
 colecție	collection	collezione	colección	coleção	collectionem
 -	-	-	colectivo	-	collectivum
 -	-	collegio	colegio	colégio	collegium
-colină	colline	collina	colina	colina	collinum
+colină	colline	collina	colina	colina	collinam
 -	-	colle	collado	cole	collem
 culca	coucher	collocare	colgar	colgar	collocare
 -	-	colludere	coludir	-	colludere
@@ -1857,7 +1857,7 @@ dur	dur	duro	duro	duro	durum
 -	hièble	ebbio	-	ébulo	ebulum
 ivoriu	ivoire	avorio	ébore	-	ebur
 -	éburnéen	eburneo	ebúrneo	-	eburneum
--	-	chiesa	-	-	ecclesiam
+-	église	chiesa	iglesia	igreja	ecclesiam
 eclipsă	éclipse	eclissi	eclipse	eclipse	eclipsem
 -	édiction	-	-	-	edictionem
 edict	édit	editto	edicto	edito	edictum
@@ -1919,7 +1919,7 @@ enorm	énorme	enorme	enorme	enorme	enormem
 -	-	epiglottide	-	-	epiglottidem
 -	épiscopat	vescovado	obispado	bispado	episcopatum
 epistolă	-	-	-	epístola	epistolam
--	-	epopto	-	-	epoptam
+-	-	epopto	-	-	epoptum
 iapă	-	-	yegua	égua	equam
 -	-	eremitico	-	-	eremiticum
 -	-	eremo	yermo	ermo	eremum
@@ -3193,7 +3193,7 @@ mâneca	-	-	-	-	manicare
 -	mâtin	-	-	manso	mansuetum
 -	-	mantice	-	-	manticam
 mâner	manière	mannaia	manero	maneiro	manuarium
--	-	-	manada	-	manuatum
+-	-	-	manada	-	manuatam
 -	-	-	-	manubial	manubialem
 -	-	manubrio	manubrio	-	manubrium
 -	-	-	manumitir	-	manumittere
@@ -3523,8 +3523,8 @@ nou	neuf	nuovo	nuevo	novo	novum
 -	nue	nube	nube	-	nubem
 noros	nubileux	nuvoloso	nubloso	nubloso	nubilosum
 nucet	-	noceto	noceda	-	nucetum
--	-	-	nuclear	-	nŭclearem
--	-	-	nuclear	-	nŭcleare
+-	-	-	nuclear	-	nuclearem
+-	-	-	nuclear	-	nucleare
 -	-	nume	numen	nume	numen
 -	numéraire	-	numerario	-	numerarium
 -	-	numeratore	numerador	-	numeratorem
@@ -4273,7 +4273,7 @@ cine	que	che	que	que	quem
 -	-	quirinale	-	-	quirinalem
 -	-	quirino	-	-	quirinum
 -	qui	chi	quién	quem	quis
--	-	-	quisque	-	quemque
+-	-	-	quisque	-	quisque
 -	quotidien	quotidiano	-	quotidiano	quotidianum
 -	-	rabula	-	rábula	rabulam
 -	-	-	-	racimado	racematum
@@ -5041,7 +5041,7 @@ suspina	soupirer	sospirare	suspirar	suspirar	suspirare
 -	-	-	-	sútil	sutilem
 -	-	-	sutorio	-	sutorium
 -	suture	sutura	sutura	sutura	suturam
--	sycophante	-	sicofanta	-	sȳcophantam
+-	sycophante	-	sicofanta	-	sycophantam
 -	synopsis	sinossi	sinopsis	-	synopsem
 -	synthèse	-	-	-	synthesem
 tavernă	taverne	taverna	taberna	taberna	tabernam
@@ -5177,7 +5177,7 @@ tort	tort	torto	tuerto	torto	tortum
 -	-	tuorlo	-	-	torulum
 -	-	-	tuero	toro	torum
 -	torve	-	-	torvo	torvum
-topseca	-	-	-	-	toxicare
+topseca	-	tossicare	-	-	toxicare
 -	-	-	trabal	trabal	trabalem
 -	trabécule	trabecola	trabécula	trabécula	trabeculam
 -	travée	trave	traba	trave	trabem
@@ -5773,7 +5773,7 @@ aplica	appliquer	applicare	aplicar	aplicar	applicare
 aplicație	application	applicazione	aplicación	aplicação	applicationem
 apocopă	apocope	apocope	apócope	apócope	apocopam
 apolog	apologue	apologo	apólogo	apólogo	apologum
-apologetică	apologétique	apologetica	apologética	apologética	apologeticum
+apologetică	apologétique	apologetica	apologética	apologética	apologeticam
 apoplectic	apoplectique	apoplettico	apoplético	apoplético	apoplecticum
 apoplexie	apoplectic	apoplessia	apoplejía	apoplexia	apoplexiam
 apos	aqueux	acquoso	aguoso	aguoso	aquosum
@@ -6967,7 +6967,7 @@ hagiograf	hagiographe	agiografo	hagiógrafo	hagiógrafo	hagiographum
 hermină	hermine	ermellino	armiño	arminho	armenius
 hernie	hernie	ernia	hernia	hérnia	herniam
 herpes	herpès	erpes	herpes	herpes	herpes
-hiacint	hyacinthe	giacinto	jacinto	jacinto	hyacinthum
+hiacint	-	giacinto	jacinto	jacinto	hyacinthum
 hiat	hiatus	iato	hiato	hiato	hiatum
 hidraulic	hydraulique	idraulico	hidráulico	hidráulico	hydraulicum
 hidromel	hydromel	idromele	hidromiel	hydromel	hydromeli
@@ -7142,8 +7142,7 @@ infidelitate	infidélité	infedeltà	infidelidad	infidelidade	infidelitatem
 infinit	infini	infinito	infinito	infinito	infinitum
 infinitate	infinité	infinità	infinidad	infinidade	infinitatem
 inflama	enflammer	infiammare	inflamar	inflamar	inflammare
-inflamație	inflammation	infiammazione	inflamación	inflamação	inflamamationem
-inflamațiune	inflammation	infiammazione	inflamación	inflamação	inflamamationem
+inflamație	inflammation	infiammazione	inflamación	inflamação	inflammationem
 inflexibil	inflexible	inflessibile	inflexible	inflexível	inflexibilem
 inflexiune	inflexion	inflessione	inflexión	inflexão	inflexionem
 informa	informer	informare	informar	informar	informare
@@ -7377,7 +7376,7 @@ macera	macérer	macerare	macerar	macerar	macerare
 macerație	macération	macerazione	maceración	maceração	macerationem
 macerațiune	macération	macerazione	maceración	maceração	macerationem
 macru	maigre	magro	magro	magro	macrum
-măduvă	meolle	midollo	meollo	miolo	medullam
+măduvă	meolle	midollo	meollo	miolo	medullum
 magie	magie	magia	magia	magia	magiam
 magisteriu	magistère	magistero	magisterio	magistério	magisterium
 magistral	magistral	magistrale	magistral	magistral	magistralem
@@ -7653,7 +7652,7 @@ obstrucție	obstruction	ostruzione	obstrucción	obstrução	obstructionem
 obtura	obturer	otturare	obturar	obturar	obturare
 obturație	obturation	otturazione	obturación	obturação	obturationem
 ocean	océan	oceano	océano	oceano	oceanum
-ochi	oeil	occhio	ojo	olho	oclum
+ochi	oeil	occhio	ojo	olho	oculum
 ocru	ocre	ocra	ocre	ocre	ochram
 octant	octant	ottante	octante	oitante	octantem
 octogenar	octogénaire	ottuagenario	octogenario	octogenário	octogenarum
@@ -7792,7 +7791,7 @@ peatră	pierre	pietra	piedra	pedra	petram
 pectoral	pectoral	pettorale	pectoral	peitoral	pectoralem
 peculiar	péculiaire	peculiare	peculiar	peculiar	peculiarem
 pedală	pédale	pedale	pedal	pedal	pedalem
-pedicur	pédicure	pedicure	pedicura	pedicure	pedicuram
+pedicur	pédicure	pedicura	pedicura	pedicura	pedicuram
 piez	pied	piede	pie	pé	pedem
 pele	peau	pelle	piel	pele	pellem
 pelerin	pelerin	pelegrino	peregrino	peregrino	peregrinum
@@ -8168,7 +8167,7 @@ respecta	respecter	rispettare	respectar	respeitar	respectare
 respira	respirer	respirare	respirar	respirar	respirare
 respirație	respiration	respirazione	respiración	respiração	respirationem
 respirațiune	respiration	respirazione	respiración	respiração	respirationem
-responsabil	responsable	reponsabile	responsable	responsável	responsabilem
+responsabil	responsable	responsabile	responsable	responsável	responsabilem
 restaura	restaurer	restaurare	restaurar	restaurar	restaurare
 restaurator	restaurateur	restauratore	restaurador	restaurador	restauratorem
 restituție	restitution	restituzione	restitución	restituição	restitutionem

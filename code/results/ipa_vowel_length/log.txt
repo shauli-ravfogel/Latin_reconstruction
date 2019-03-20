@@ -1,0 +1,19 @@
+Edit distance threshold: 0
+run number 1; acc: 0.480; average edit distance: 1.331; average normalized edit distnace: 0.119
+------------------------------------
+Edit distance threshold: 1
+run number 1; acc: 0.620; average edit distance: 1.331; average normalized edit distnace: 0.119
+------------------------------------
+Edit distance threshold: 2
+run number 1; acc: 0.802; average edit distance: 1.331; average normalized edit distnace: 0.119
+------------------------------------
+Edit distance threshold: 3
+run number 1; acc: 0.871; average edit distance: 1.331; average normalized edit distnace: 0.119
+------------------------------------
+Edit distance threshold: 4
+run number 1; acc: 0.938; average edit distance: 1.331; average normalized edit distnace: 0.119
+------------------------------------
+Edit distance threshold: 5
+run number 1; acc: 0.973; average edit distance: 1.331; average normalized edit distnace: 0.119
+------------------------------------
+error distribution: [0.096, 0.028, 0.036, 0.014, 0.013, 0.007, 0.004, 0.001, 0.001]

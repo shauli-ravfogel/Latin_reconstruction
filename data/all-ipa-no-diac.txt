@@ -7,7 +7,7 @@ ROMANIAN	FRENCH	ITALIAN	SPANISH	PORTUGUESE	LATIN-CORRECT
 -	-	-arkia	-	-ɐɾəkiɐ	-arkʰɪam
 -ar	-je	-	-eɾo	-eɪɾʊ	-arɪʊm
 -atek	-	-atiko	-aθɣo	-	-atɪkʊm
--at	-(en)at(fr)	-ato	-ato	-atʊ	-atʊm
+-at	-a	-ato	-ato	-atʊ	-atʊm
 -	-sid	-	-θiða	-	-kidam
 -	-	-tʃidio	-θiðjo	-	-kidɪʊm
 -	-	-	-kola	-	-kɔlam
@@ -26,7 +26,7 @@ ROMANIAN	FRENCH	ITALIAN	SPANISH	PORTUGUESE	LATIN-CORRECT
 -	-ifje	-ifikare	-	-	-ɪfɪkarɛ
 -il	-il	-ile	-il	-	-ɪlɛm
 -	-	-	-iʎo	-	-ɪllʊm
--in	-(en)ɪn(fr)	-ino	-ino	-iɲʊ	-inʊm
+-in	-in	-ino	-ino	-iɲʊ	-inʊm
 -	-	-	-io	-	-jonɛm
 -esk	-wa	-	-sko	-iʃkʊ	-ɪskʊm
 -	-im	-issimo	-isimo	-isimʊ	-ɪssɪmʊm
@@ -123,7 +123,7 @@ abuziv	abyzif	-	aβusiβo	ɐbuzivʊ	abusiwʊm
 abuza	abyze	abuzare	-	ɐbuzaɹ	abuti
 -	abim	abisso	aβismo	ɐbiʒmʊ	abyssʊm
 -	akademi	akkadɛmia	akaðemja	ɐkɐdɨmiɐ	akademiam
-akantə	(en)ɐkanð(fr)	akanto	akanto	ɐkɐ̃ŋtʊ	akantʰʊm
+akantə	akɑ̃t	akanto	akanto	ɐkɐ̃ŋtʊ	akantʰʊm
 -	-	-	-	ɐkɐtɐlɨpsiɐ	akatalepsɪam
 -	-	-	akalðaɾ	-	akkapɪtarɛ
 -	aksede	atʃʃedere	akθeðeɾ	ɐsɨdeɹ	akkedɛrɛ
@@ -137,7 +137,7 @@ aktʃent	aksɑ̃	atʃʃɛnto	aθɛnto	ɐseɪŋtʊ	akkɛntʊm
 -	-	-	-	ɐsideɪŋtɨ	akkɪdɛntɛm
 -	-	-	-	ɐsideɪŋsjɐ	akkɪdɛntɪam
 -	aksɛpte	atʃʃettare	aθepptaɾ	ɐseɪtaɹ	akkɪpɛrɛ
--	otuʁ	astore	aθoɾ	ɐsoɹ	akkɪpɪtrɛm
+-	otuʁ	astore	aθoɾ	ɐsoɹ	astʊrɛm
 -	-	-	aklaɾaɾ	ɐklɐɾaɹ	akklararɛ
 -	-	akkline	-	-	akklinɛm
 -	-	-	-	ɐklividadɨ	akkliwɪtatɛm
@@ -309,7 +309,7 @@ rudʒinə	-	rudʒʒine	eɾuxine	ɐɨɾuʒitɐ	aɪruɡɪnɛm
 -	-	-	-	ʃtimɐtivɐ	aɪstɪmatɪwatɛm
 -	ɛstival	estivo	estio	ɨʃtiʊ	aɪstiwʊm
 etate	aʒ	eta	eðad	idadɨ	aɪtatɛm
--	(en)ɪðə(fr)	etere	-	ɛtɨɹ	aɪtʰɛraaɪtʰɛrɛm
+-	etɛʁ	etere	-	ɛtɨɹ	aɪtʰɛrɛm
 -	eteʁe	etɛreo	-	etɛɾiʊ	aɪtʰɛrɪʊm
 ev	-	ɛvo	eβo	ɛvʊ	aɪwʊm
 -	afɛksjɔ̃	affetsione	afekθjon	ɐfeɪsɐ̃ʊ̃	affɛktɪonɛm
@@ -429,7 +429,7 @@ umbla	ale	andare	andaɾ	ɐ̃ŋdaɹ	ambʊlarɛ
 -	-	-	-	ɐmeɪŋtaɹ	amɛntarɛ
 -	-	amento	amɛnto	ɐmeɪŋtʊ	amɛntʊm
 -	-	-	anda	-	amɪtɛm
-ametist	(en)ameɪθɪst(fr)	ametista	amatista	-	amɛtʰystʊm
+ametist	ametist	ametista	amatista	-	amɛtʰystam
 amikə	ami	amika	amiɣa	ɐmiɡɐ	amikam
 amikal	amikal	amikale	amikal	-	amikalɛm
 amitʃitsje	-	amitʃitsia	amiθiθja	ɐmisisjɐ	amikɪtɪam
@@ -457,7 +457,7 @@ analodʒie	analoʒi	-	analoxia	ɐnɐluʒiɐ	analɔɡɪamanalɔɡɪan
 -	-	-	-	ɐ̃ŋsipitɨ	aŋkɪpɪtɛm
 inel	ano	anɛllo	aniʎo	ɐ̃nɛl	anɛllʊm
 -	anemɔn	anɛmone	-	-	anɛmonen
--	(en)eɪnəθ(fr)	aneto	aneto	ɐnetʊ	anetʰʊm
+-	anɛt	aneto	aneto	ɐnetʊ	anetʰʊm
 -	-	aŋɡeria	-	-	aŋɡarɪam
 -	ɑ̃ʒelik	andʒɛliko	aŋxeliko	ɐ̃ŋʒɛlikʊ	aŋɡɛlɪkʊm
 -	ɑ̃ɡlɛ	iŋɡleze	-	-	aŋɡlensɛm
@@ -587,7 +587,7 @@ ardʒint	aʁʒɑ̃	ardʒɛnto	aɾxɛnto	ɐɾəʒeɪŋtʊ	arɡɛntʊm
 arɡutsje	aʁɡyti	arɡutsia	aɾɣuθja	ɐɾəɡusjɐ	arɡutɪam
 aɾete	-	ariɛte	aɾjete	ɐɾiɨtɨ	arɪɛtɛm
 -	-	-	aɾjetaɾ	-	arɪɛtarɛ
-armɨnt	-	-	-	-	armamɛntʊm
+armɨnt	-	armamento	-	-	armamɛntʊm
 armar	-	armadio	aɾmaɾjo	-	armarɪʊm
 -	-	-	aɾmaθon	-	armatɪonɛm
 armat	aʁme	armato	aɾmaðo	ɐɾəmadʊ	armatʊm
@@ -765,7 +765,7 @@ bate	batʁ	battere	batiɾ	bɐteɹ	battʊɛrɛ
 -	-	-	belixeɾo	-	bɛllɪɡɛrʊm
 -	bɛliʒeʁe	-	-	-	bɛllɪɡɛrarɛ
 -	bo	bɛllo	beʎo	bɛlʊ	bɛllʊm
--	bɛlyɛʁ	belva	-	beluɐɾiɐ	belʊam
+-	bɛlyɛʁ	belva	-	beluɐɾiɐ	belwam
 -	beniʁ	benedire	bendeθiɾ	beɪŋdizeɹ	bɛnɛdikɛrɛ
 -	benediksjɔ̃	beneditsione	bendiθjon	beɪŋsɐ̃ʊ̃	bɛnɛdɪktɪonɛm
 -	bənwa	benedetto	benditʃo	-	bɛnɛdɪktʊm
@@ -887,7 +887,7 @@ kalefaktsie	kalefaksjɔ̃	-	kalefakθjon	kɐlɨfɐsɐ̃ʊ̃	kalɛfaktɪonɛm
 -	-	kaliɡa	kaliɣa	kɑliɡɐ	kalɪɡam
 -	kaliʒinø	kalidʒinozo	kalixinoso	kɐliʒinozʊ	kaliɡɪnosʊm
 -	-	kalidʒine	-	-	kaliɡɪnɛm
--	(en)kalaɪf(fr)	kaliffo	kalifa	kɐlifɐ	kalipʰam
+-	kalif	kaliffo	kalifa	kɐlifɐ	kalipʰam
 kalitʃiw	-	kalitʃe	kaliθ	kɑlisɨ	kalɪkɛm
 -	-	kallido	kaliðo	kɑlidʊ	kallɪdʊm
 kale	-	kalle	kaʎe	-	kallɛm
@@ -1023,7 +1023,7 @@ tʃelebru	selɛbʁ	tʃɛlebre	θeleβɾe	sɛlɨbɹɨ	kɛlɛbrɛm
 -	selebʁasjɔ̃	tʃelebratsione	θeleβɾaθjon	-	kɛlɛbratɪonɛm
 -	selebʁe	tʃelebrare	θeleβɾaɾ	-	kɛlɛbrarɛ
 -	səle	tʃɛlere	θeleɾe	sɛlɨɾɨ	kɛlɛrɛm
--	(en)seɪleɪɹɪpid(fr)	-	-	-	kɛlɛrɪpɛdɛm
+-	seleʁipɛd	-	-	-	kɛlɛrɪpɛdɛm
 -	-	tʃɛlla	θela	sɛlɐ	kɛllam
 -	səle	tʃelare	θelaɾ	-	kelarɛ
 -	-	tʃelsitudine	-	-	kɛlsɪtudɪnɛm
@@ -1160,7 +1160,7 @@ koit	-	-	-	koɪtʊ	kɔɪtʊm
 kolektsie	kɔlɛksjɔ̃	kolletsione	kolekθjon	kulɨsɐ̃ʊ̃	kɔllektɪonɛm
 -	-	-	kolektiβo	-	kɔllektiwʊm
 -	-	kollɛdʒo	kolexjo	kulɛʒjʊ	kɔlleɡɪʊm
-kolinə	kɔlin	kollina	kolina	kulinɐ	kɔllinʊm
+kolinə	kɔlin	kollina	kolina	kulinɐ	kɔllinam
 -	-	kolle	koʎaðo	kɔlɨ	kɔllɛm
 kulka	kuʃe	kollokare	kolɣaɾ	kulɡaɹ	kɔllɔkarɛ
 -	-	kolludere	koluðiɾ	-	kɔlludɛrɛ
@@ -1857,7 +1857,7 @@ dur	dyʁ	duro	duɾo	duɾʊ	durʊm
 -	jɛbl	ebbio	-	ɛbulʊ	ɛbʊlʊm
 ivoɾiw	ivwaʁ	avɔrio	eβoɾe	-	ɛbʊr
 -	ebyʁneɛ̃	eburnɛo	eβuɾneo	-	ɛbʊrnɛʊm
--	-	kjɛza	-	-	ɛkklesɪam
+-	eɡliz	kjɛza	iɣlesja	iɣɾɐʒɐ	ɛkklesɪam
 eklipsə	eklips	eklissi	eklipse	eklipsɨ	ɛklipsɛm
 -	ediksjɔ̃	-	-	-	edɪktɪonɛm
 edikt	edi	editto	eðikto	editʊ	edɪktʊm
@@ -1919,7 +1919,7 @@ enorm	enɔʁm	enorme	enoɾme	enɔɾəmɨ	enormɛm
 -	-	epiɡlɔttide	-	-	ɛpɪɡlottɪdɛm
 -	episkopa	veskovado	oβispaðo	biʃpadʊ	ɛpɪskɔpatʊm
 epistolə	-	-	-	epiʃtulɐ	ɛpɪstɔlam
--	-	epopto	-	-	ɛpɔptam
+-	-	epopto	-	-	ɛpɔptʊm
 japə	-	-	ʝeɣwa	ɛɡwɐ	ɛkwam
 -	-	eremitiko	-	-	ɛremitɪkʊm
 -	-	ɛremo	ʝeɾmo	eɾəmʊ	ɛremʊm
@@ -3165,9 +3165,9 @@ madʒie	-	madʒia	maxja	mɐʒiɐ	maɡiam
 -	malefis	-	-	-	malɛfɪkɪʊm
 meɾesɨn	-	-	-	-	malɛsanʊm
 -	malɛ̃	maliɲɲo	maliɡno	mɐliɡnʊ	malɪŋnʊm
-maj	(en)meɪl(fr)	maʎo	maʎo	maʎʊ	mallɛʊm
+maj	mɛl	maʎo	maʎo	maʎʊ	mallɛʊm
 -	-	-	-	milɡɹadɐ	malɔɡranatʊm
--	(en)malð(fr)	malta	-	-	maltʰam
+-	malt	malta	-	-	maltʰam
 -	mal	male	mal	mɑl	malʊm
 -	-	kotoɲɲa	melokoton	-	malʊmkɔtonɪʊm
 mər	-	mɛla	mela	-	malʊm
@@ -3193,7 +3193,7 @@ mɨneka	-	-	-	-	manikarɛ
 -	matɛ̃	-	-	mɐ̃ŋsʊ	mansʊetʊm
 -	-	mantitʃe	-	-	mantɪkam
 mɨner	manjɛʁ	mannaia	maneɾo	mɐneɪɾʊ	manʊarɪʊm
--	-	-	manaða	-	manʊatʊm
+-	-	-	manaða	-	manʊatam
 -	-	-	-	mɐnubiɑl	manʊbɪalɛm
 -	-	manubrio	manuβɾio	-	manubrɪʊm
 -	-	-	manumitiɾ	-	manumɪttɛrɛ
@@ -3977,7 +3977,7 @@ pom	pɔm	pomo	pomo	pomʊ	pomʊm
 -	pɔ̃deʁe	ponderare	pondeɾaɾ	puŋdɨɾaɹ	pɔndɛrarɛ
 -	pɔ̃deʁø	ponderozo	pondeɾoso	puŋdɨɾozʊ	pɔndɛrosʊm
 pondeɾe	-	-	-	-	pɔndʊs
--	(en)pɒntaɪf(fr)	pontefitʃe	pontifiθe	puŋtifisɨ	pɔntɪfɪkɛm
+-	pɔ̃tif	pontefitʃe	pontifiθe	puŋtifisɨ	pɔntɪfɪkɛm
 -	pɔ̃tifika	pontifikato	pontifikaðo	puŋtifikadʊ	pɔntɪfɪkatʊm
 -	-	-	-	popɐ	pɔpam
 -	pɔplite	poplite	-	pɔplitɨ	pɔplɪtɛm
@@ -4273,7 +4273,7 @@ tʃine	kə	ke	ke	kɨ	kwɛm
 -	-	kwirinale	-	-	kwɪrinalɛm
 -	-	kwirino	-	-	kwɪrinʊm
 -	ki	ki	kjen	kem	kwɪs
--	-	-	kiske	-	kwɛmkwɛ
+-	-	-	kiske	-	kʷiskʷe
 -	kotidjɛ̃	kwotidjano	-	kuutidiɐ̃nʊ	kwɔtidɪanʊm
 -	-	rabula	-	ʁabulɐ	rabʊlam
 -	-	-	-	ʁɐsimadʊ	rakematʊm
@@ -4335,7 +4335,7 @@ rekunɔaʃte	-	rikonoʃere	rekonoθeɾ	ʁekuɲɨseɹ	rɛkɔŋnoskɛrɛ
 -	ʁekɔ̃siljasjɔ̃	rikontʃiliatsione	rekonθiljaθjon	ʁekuŋsiliɐsɐ̃ʊ̃	rɛkɔŋkɪlɪatɪonɛm
 -	ʁekɔ̃silje	rikontʃiliare	rekonθiljaɾ	ʁekuŋsiliaɹ	rɛkɔŋkɪlɪarɛ
 -	-	rikordabile	-	-	rɛkɔrdabɪlɛm
--	(en)ɹɪkɔdə(fr)	rikordare	rekoɾðaɾ	ʁɨkuɾədaɹ	rɛkɔrdari
+-	ʁəkɔʁde	rikordare	rekoɾðaɾ	ʁɨkuɾədaɹ	rɛkɔrdari
 -	-	-	rekeβɾaɾ	-	rɛkrɛparɛ
 rektaŋɡul	ʁɛktɑ̃ɡl	rettaŋɡolo	rektaŋɡulo	ʁɛtɐ̃ŋɡulʊ	rɛktaŋɡʊlʊm
 -	ʁɛktityd	-	rektitud	-	rɛktɪtudɪnɛm
@@ -5177,7 +5177,7 @@ tort	tɔʁ	tɔrto	tweɾto	toɾətʊ	tɔrtʊm
 -	-	tuɔrlo	-	-	tɔrʊlʊm
 -	-	-	tweɾo	tɔɾʊ	tɔrʊm
 -	tɔʁv	-	-	toɾəvʊ	tɔrwʊm
-topseka	-	-	-	-	tɔksɪkarɛ
+topseka	-	tossikare	-	-	tɔksɪkarɛ
 -	-	-	tɾaβal	tɹɐbɑl	trabalɛm
 -	tʁabekyl	trabekola	tɾaβekula	tɹɐbɛkulɐ	trabekʊlam
 -	tʁave	trave	tɾaβa	tɹavɨ	trabɛm
@@ -5613,7 +5613,7 @@ abominabil	abominabl	abominabile	aβominaβle	ɐbuminavɛl	abomɪnabɪlɛm
 abortiv	abɔʁtif	abortivo	aβoɾtiβo	ɐbuɾətivʊ	abɔrtiwʊm
 absent	absɑ̃	assɛnte	aʊsɛnte	aʊzeɪŋtɨ	absɛntɛm
 absentsə	absɑ̃s	assɛntsa	aʊsɛnθja	aʊzeɪŋsjɐ	absɛntɪam
-absint	(en)absɪnθ(fr)	assɛntsio	axɛŋxo	siŋtɹʊ	absɪntʰɪʊm
+absint	apsɛ̃t	assɛntsio	axɛŋxo	siŋtɹʊ	absɪntʰɪʊm
 absorbʲ	absɔʁbe	assorbire	aβsoɾβeɾ	ɐbsuɾəveɹ	absɔrberɛ
 abstinent	abstin	astinɛnte	aβstinɛnte	ɐbstineɪŋtɨ	abstɪnɛntɛm
 abstinentsə	abstinɑ̃s	astinɛntsa	aβstinɛnθja	ɐbstineɪŋsjɐ	abstɪnɛntɪam
@@ -5773,7 +5773,7 @@ aplika	aplike	applikare	aplikaɾ	ɐplikaɹ	applɪkarɛ
 aplikatsje	aplikasjɔ̃	applikatsione	aplikaθjon	ɐplikɐsɐ̃ʊ̃	applɪkatɪonɛm
 apokopə	apokɔp	apɔkope	apokope	ɐpɔkupɨ	apɔkɔpam
 apoloɡ	apoloɡ	apɔloɡo	apoloɣo	ɐpɔluɡʊ	apɔlɔɡʊm
-apolodʒetikə	apoloʒetik	apolodʒɛtika	apoloxetika	ɐpuluʒɛtikɐ	apɔlɔɡetɪkʊm
+apolodʒetikə	apoloʒetik	apolodʒɛtika	apoloxetika	ɐpuluʒɛtikɐ	apɔlɔɡetɪkam
 apoplektik	apɔplɛktik	apoplɛttiko	apopletiko	ɐpuplɛtikʊ	apɔplektɪkʊm
 apopleksje	apɔplɛktik	apoplessia	apoplexia	ɐpuplɨksiɐ	apɔplɛksɪam
 apos	akø	akkwozo	aɣwoso	ɐɡwozʊ	akwosʊm
@@ -5814,7 +5814,7 @@ aɾje	ɛʁ	aia	aɾea	eɪɾɐ	arɛam
 aɾitʃʲ	eʁisɔ̃	ritʃʃo	eɾiθo	uwɾisʊ	erɪkɪʊm
 aɾid	aʁid	arido	aɾiðo	aɾidʊ	arɪdʊm
 aɾinə	aʁɛn	rena	aɾena	ɐɾeɪɐ	arenam
-aɾitmetikə	(en)aɹɪθmɪtik(fr)	aritmɛtika	aɾitmetika	ɐɾitmɛtikɐ	arɪtʰmetɪkam
+aɾitmetikə	aʁitmətik	aritmɛtika	aɾitmetika	ɐɾitmɛtikɐ	arɪtʰmetɪkam
 armə	aʁm	arma	aɾma	aɾəmɐ	arma
 armətuɾə	aʁmatyʁ	armatura	aɾmaðuɾa	ɐɾəmɐduɾɐ	armaturam
 armonie	aʁmoni	armonia	aɾmonia	ɐɾəmuniɐ	harmɔnɪam
@@ -5828,8 +5828,8 @@ artikol	aʁtikl	artikolo	aɾtikulo	ɐɾətiɡʊ	artɪkʊlʊm
 artifitʃjal	aʁtifisjɛl	artifitʃale	aɾtifiθjal	ɐɾətifisiɑl	artɪfɪkɪalɛm
 artifitʃiw	aʁtifis	artifitʃo	aɾtifiθjo	ɐɾətifisjʊ	artɪfɪkɪʊm
 artileɾje	aʁtijʁi	artiʎeria	aɾtiʎeɾia	ɐɾətiʎɐɾiɐ	aptɪkʊlarɛ
-artritə	(en)ɑθɹaɪt(fr)	artrite	aɾtɾitis	ɐɾətɹitɨ	artʰritɪs
-artritik	(en)ɑθɹɪtik(fr)	artritiko	aɾtɾitiko	ɐɾətɹitikʊ	artʰritɪkʊm
+artritə	aʁtʁit	artrite	aɾtɾitis	ɐɾətɹitɨ	artʰritɪs
+artritik	aʁtʁitik	artritiko	aɾtɾitiko	ɐɾətɹitikʊ	artʰritɪkʊm
 aʃa	ɛ̃si	kozi	asi	ɐsiŋ	ɛkkʊmsik
 astʃendent	asɑ̃dɑ̃	aʃendɛnte	asθendɛnte	ɐseɪŋdeɪŋtɨ	askɛndɛntɛm
 avea	avwaʁ	avere	aβeɾ	ɐveɹ	haberɛ
@@ -5875,7 +5875,7 @@ auɾifer	oʁifɛʁ	aurifero	aʊɾifeɾo	aʊɾifɨɾʊ	aʊrɪfɛrʊm
 auster	ostʁ	austɛro	aʊsteɾo	aʊʃtɛɾʊ	aʊsterʊm
 austeɾitate	osteʁite	austerite	aʊsteɾiðad	aʊʃtɨɾidadɨ	aʊsterɪtatɛm
 austral	ostʁal	australe	aʊstɾal	aʊʃtɹɑl	aʊstralɛm
-awtentik	(en)ɔθəntik(fr)	autɛntiko	aʊtentiko	aʊteɪŋtikʊ	aʊtʰɛntɪkʊm
+awtentik	otɑ̃tik	autɛntiko	aʊtentiko	aʊteɪŋtikʊ	aʊtʰɛntɪkʊm
 awtɔaɾe	otœʁ	autore	aʊtoɾ	aʊtoɹ	aʊktorɛm
 awtoɡraf	otoɡʁaf	autɔɡrafo	aʊtoɣɾafo	aʊtɔɡɹɐfʊ	aʊtɔɡrapʰʊm
 avaɾitsje	avaʁis	avaritsia	aβaɾiθja	ɐvɐɾezɐ	awarɪtɪam
@@ -6198,7 +6198,7 @@ konfunda	kɔ̃fɔ̃dʁ	konfondere	komfundiɾ	kuŋfũŋdiɹ	konfʊnderɛ
 konfuzje	kɔ̃fyzjɔ̃	konfuzione	komfusjon	kuŋfuzɐ̃ʊ̃	kɔnfusɪonɛm
 koŋdʒela	kɔ̃ʒle	kondʒelare	koŋxelaɾ	kuŋʒɨlaɹ	kɔŋɡelarɛ
 koŋdʒener	kɔ̃ʒenɛʁ	kondʒɛnere	koŋxeneɾe	kuŋʒenɨɾɨ	kɔŋɡɛnɛrɪs
-koŋdʒestje	kɔ̃ʒɛstjɔ̃	kondʒestione	koŋxestjon	(en)kəndʒɛstʃən(pt-pt)	kɔŋɡɛstɪonɛm
+koŋdʒestje	kɔ̃ʒɛstjɔ̃	kondʒestione	koŋxestjon	kõʒɨʃtiõ	kɔŋɡɛstɪonɛm
 koŋɡlutina	kɔ̃ɡlytine	koŋɡlutinare	koŋɡlutinaɾ	kuŋɡlutinaɹ	kɔŋɡlutɪnarɛ
 koŋɡratula	kɔ̃ɡʁatyle	koŋɡratular	koŋɡɾatulaɾ	kuŋɡɹɐtulaɹ	kɔŋɡratʊlari
 koŋɡreɡatsje	kɔ̃ɡʁeɡasjɔ̃	koŋɡreɡatsione	koŋɡɾeɣaθjon	kuŋɡɹɨɡɐsɐ̃ʊ̃	kɔŋɡrɛɡatɪonɛm
@@ -6546,7 +6546,7 @@ dona	dɔne	donare	donaɾ	duaɹ	donarɛ
 donatsje	donasjɔ̃	donatsione	donaθjon	duɐsɐ̃ʊ̃	donatɪonɛm
 doɾik	doʁik	dɔriko	doɾiko	dɔɾikʊ	dɔrɪkʊm
 dormʲ	dɔʁmiʁ	dormire	doɾmiɾ	duɾəmiɹ	dɔrmirɛ
-dos	(en)dɒs(fr)	dɔrso	doɾso	doɾəsʊ	dɔrsʊm
+dos	do	dɔrso	doɾso	doɾəsʊ	dɔrsʊm
 dotə	dɔt	dɔte	dote	dɔtɨ	dotɛm
 dotal	dotal	dotale	dotal	dutɑl	dotalɛm
 drak	dʁaɡɔ̃	drako	dɾaɣon	dɹɐɡaʊ	drakonɛm
@@ -6555,7 +6555,7 @@ dramatik	dʁamatik	dramatiko	dɾamatiko	dɹɐmatikʊ	dramatɪkʊm
 dreaptə	dʁwa	diritto	deɾetʃo	dɨɾeɪtʊ	dirɛktʊm
 dromader	dʁomadɛʁ	dromedario	dɾomeðaɾjo	dɹumɨdaɾjʊ	drɔmɛdarɪʊm
 drupə	dʁyp	drupa	dɾupa	dɹupɐ	drupam
-dwal	(en)djuəl(fr)	duale	dwal	duɑl	dʊalɛm
+dwal	dyal	duale	dwal	duɑl	dʊalɛm
 dwalitate	dyalite	dualita	dwaliðad	duɐlidadɨ	dʊalɪtatɛm
 dupleka	dyplike	duplikare	doβleɣaɾ	duplikaɹ	dʊplɪkarɛ
 dukal	dykal	dukale	dukal	dukɑl	dʊkalɛm
@@ -6693,7 +6693,7 @@ eteɾoklit	eteʁɔklit	eteroklito	eteɾoklito	etɨɾɔklitʊ	hɛtɛroklɪtʊm
 etimolodʒie	etimoloʒi	etimolodʒia	etimoloxia	etimuluʒiɐ	ɛtymɔlɔɡɪam
 eufonie	øfoni	eufonia	eʊfonia	eʊfuniɐ	ɛʊpʰonɪam
 eunuk	ønyk	eunuko	eʊnuko	eʊnukʊ	ɛʊnukʰʊm
-euɾitmje	(en)juɹɪθmi(fr)	euritmia	eʊɾitmja	eʊɾitmiɐ	ɛʊrhytʰmɪam
+euɾitmje	øʁitmi	euritmia	eʊɾitmja	eʊɾitmiɐ	ɛʊrhytʰmɪam
 evakwa	evakye	evakuare	eβakwaɾ	evɐkuaɹ	ewakʊarɛ
 evaŋɡeliza	evɑ̃ʒelize	evandʒelidzzare	eβaŋxeliθaɾ	evɐ̃ŋʒelizaɹ	ewaŋɡɛlizzarɛ
 evapoɾa	evapoʁe	evaporare	eβapoɾaɾ	evɐpuɾaɹ	ewaporarɛ
@@ -6748,7 +6748,7 @@ eksplozje	ɛksplozjɔ̃	esplozione	eksplosjon	espluzɐ̃ʊ̃	ɛksplɔsɪonɛm
 eksporta	ɛkspɔʁte	esportare	ekspoɾtaɾ	eʃpuɾətaɹ	ɛkspɔrtarɛ
 ekspozitsje	ɛkspozisjɔ̃	espozitsione	eksposiθjon	eʃpuzisɐ̃ʊ̃	ɛkspɔsɪtɪonɛm
 ekspozitsjune	ɛkspozisjɔ̃	espozitsione	eksposiθjon	eʃpuzisɐ̃ʊ̃	ɛkspɔsɪtɪonɛm
-ekspres	(en)ɛkspɹɛs(fr)	esprɛsso	ekspɾeso	espɹɨsʊ	ɛksprɛssʊm
+ekspres	ɛkspʁɛs	esprɛsso	ekspɾeso	espɹɨsʊ	ɛksprɛssʊm
 ekspresje	ɛkspʁɛsjɔ̃	espressione	ekspɾesjon	espɹɨsɐ̃ʊ̃	ɛksprɛssɪonɛm
 ekspulsje	ɛkspylsjɔ̃	espulsione	ekspulsjon	eʃpuwsɐ̃ʊ̃	ɛkspʊlsɪonɛm
 ekstensjune	ɛkstɑ̃sjɔ̃	estensione	ekstensjon	eʃteɪŋsɐ̃ʊ̃	ɛkstɛnsɪonɛm
@@ -6967,7 +6967,7 @@ hadʒjoɡraf	aʒjɔɡʁaf	adʒɔɡrafo	axjoɣɾafo	ɐʒiɔɡɹɐfʊ	haɡɪɔɡra
 herminə	ɛʁmin	ermellino	aɾmiɲo	ɐɾəmiɲʊ	armɛnɪʊs
 hernje	ɛʁni	ɛrnia	eɾnja	ɛɾənjɐ	hɛrnɪam
 herpes	ɛʁpɛs	ɛrpes	eɾpes	eɾəpɨʃ	hɛrpes
-hjatʃint	(en)haɪɐsɪnð(fr)	dʒatʃinto	xaθinto	ʒɐsiŋtʊ	hyakɪntʰʊm
+hjatʃint	-	dʒatʃinto	xaθinto	ʒɐsiŋtʊ	hyakɪntʰʊm
 hjat	jatys	jato	jato	iatʊ	hɪatʊm
 hidrawlik	idʁolik	idrauliko	iðɾauliko	idɹaʊlikʊ	hydraʊlɪkʊm
 hidromel	idʁomɛl	idromɛle	iðɾomjel	idɹumɛl	hydrɔmɛlɪ
@@ -7117,7 +7117,7 @@ indutʃe	ɛ̃dyiʁ	indurre	induθiɾ	iŋduziɹ	ɪndukɛrɛ
 induktsie	ɛ̃dyksjɔ̃	indutsione	indukθjon	iŋdusɐ̃ʊ̃	ɪndʊktɪonɛm
 induktiv	ɛ̃dyktif	induttivo	induktiβo	iŋdutivʊ	ɪndʊktiwʊm
 induldʒentsə	ɛ̃dylʒɑ̃s	induldʒɛntsa	indulxɛnθja	iŋduwʒeɪŋsjɐ	ɪndʊlɡɛntɪam
-indult	(en)ɪndʌlt(fr)	indulto	indulto	iŋduwtʊ	ɪndʊltʊm
+indult	ɛ̃dyl	indulto	indulto	iŋduwtʊ	ɪndʊltʊm
 indument	ɛ̃dymɑ̃	indumento	indumɛnto	iŋdumeɪŋtʊ	ɪndumɛntʊm
 industrje	ɛ̃dystʁi	industria	industɾia	iŋduʃtɹiɐ	ɪndʊstrɪam
 inefabil	inɛfabl	ineffabile	inefaβle	inɨfavɛl	ɪnɛffabɪlɛm
@@ -7142,8 +7142,7 @@ infidelitate	ɛ̃fidelite	infedelta	imfiðeliðad	iŋfidɨlidadɨ	infɪdelɪtat�
 infinit	ɛ̃fini	infinito	imfinito	iŋfinitʊ	infinitʊm
 infinitate	ɛ̃finite	infinita	imfiniðad	iŋfinidadɨ	infinitatɛm
 inflama	ɑ̃flame	infjammare	imflamaɾ	iŋflɐmaɹ	inflammarɛ
-inflamatsje	ɛ̃flamasjɔ̃	infjammatsione	imflamaθjon	iŋflɐmɐsɐ̃ʊ̃	inflamamatɪonɛm
-inflamatsjune	ɛ̃flamasjɔ̃	infjammatsione	imflamaθjon	iŋflɐmɐsɐ̃ʊ̃	inflamamatɪonɛm
+inflamatsje	ɛ̃flamasjɔ̃	infjammatsione	imflamaθjon	iŋflɐmɐsɐ̃ʊ̃	inflammatɪonɛm
 infleksibil	ɛ̃flɛksibl	inflessibile	imfleksiβle	iŋflɨksivɛl	inflɛksɪbɪlɛm
 infleksjune	ɛ̃flɛksjɔ̃	inflessione	imfleksjon	iŋflɨksɐ̃ʊ̃	inflɛksɪonɛm
 informa	ɛ̃fɔʁme	informare	imfoɾmaɾ	iŋfuɾəmaɹ	informarɛ
@@ -7176,7 +7175,7 @@ inskriptsje	ɛ̃skʁipsjɔ̃	iskritsione	inskɾipθjon	iŋskɹisɐ̃ʊ̃	inskrip
 insektə	ɛ̃sɛkt	insɛtto	insekto	iŋsɛtʊ	insɛktʊm
 insensibil	ɛ̃sɑ̃sibl	insensibile	insensiβle	iŋseɪŋsivɛl	insensɪbɪlɛm
 insidjos	ɛ̃sidjø	insidiozo	insiðjoso	iŋsidiozʊ	insɪdɪosʊm
-insipid	(en)ɪnsɪpaɪd(fr)	insipido	insipiðo	iŋsipidʊ	insɪpɪdʊm
+insipid	ɛ̃sipid	insipido	insipiðo	iŋsipidʊ	insɪpɪdʊm
 insista	ɛ̃siste	insistere	insistiɾ	iŋsiʃtiɹ	insɪstɛrɛ
 insolent	ɛ̃solɑ̃	insolɛnte	insolɛnte	iŋsuleɪŋtɨ	insɔlɛntɛm
 insolentsə	ɛ̃solɑ̃s	insolɛntsa	insolɛnθja	iŋsuleɪŋsjɐ	insɔlɛntɪam
@@ -7296,7 +7295,7 @@ iteɾativ	iteʁatif	iterativo	iteɾatiβo	itɨɾɐtivʊ	ɪtɛratiwʊm
 ʒuvenil	ʒyvenil	dʒovanile	xuβenil	ʒuvɨnil	jʊwɛnilɛm
 la	lave	lavare	aʎa	lɐvaɹ	lawarɛ
 labil	labil	labile	laβil	labil	labɪlɛm
-labiɾint	(en)labɪɹɪnð(fr)	labirinto	laβeɾinto	lɐbiɾiŋtʊ	labyrɪntʰʊm
+labiɾint	labiʁɛ̃t	labirinto	laβeɾinto	lɐbiɾiŋtʊ	labyrɪntʰʊm
 laboɾjos	laboʁjø	laboriozo	laβoɾjoso	lɐbuɾiozʊ	laborɪosʊm
 lak	lak	laɡo	laɣo	laɡʊ	lakʊm
 latʃeɾatsje	laseʁasjɔ̃	latʃeratsione	laθeɾaθjon	lɐsɨɾɐsɐ̃ʊ̃	lakɛratɪonɛm
@@ -7334,8 +7333,8 @@ leu	ljɔ̃	leone	leon	leɐʊ	lɛonɛm
 lentikular	lɑ̃tikylɛʁ	lentikolare	lentikulaɾ	leɪŋtikulaɹ	lɛntɪkʊlarɛm
 leʃje	lɛsiv	liʃivo	lexjo	liʃivjʊ	lɪksiwɪʊm
 letal	letal	letale	letal	lɛtɑl	letalɛm
-letardʒik	(en)leɪθɑdʒik(fr)	letardʒiko	letaɾxiko	letaɾəʒikʊ	letʰarɡɪkʊm
-letardʒie	(en)leɪθɑdʒi(fr)	letardʒia	letaɾxja	lɛtɐɾəʒiɐ	letʰarɡɪam
+letardʒik	letaʁʒik	letardʒiko	letaɾxiko	letaɾəʒikʊ	letʰarɡɪkʊm
+letardʒie	letaʁʒi	letardʒia	letaɾxja	lɛtɐɾəʒiɐ	letʰarɡɪam
 lezjune	lezjɔ̃	lezione	lesjon	lɨzɐ̃ʊ̃	laɪsɪonɛm
 libatsje	libasjɔ̃	libadʒone	liβaθjon	libɐsɐ̃ʊ̃	libatɪonɛm
 libatsjune	libasjɔ̃	libadʒone	liβaθjon	libɐsɐ̃ʊ̃	libatɪonɛm
@@ -7377,7 +7376,7 @@ matʃeɾa	maseʁe	matʃerare	maθeɾaɾ	mɐsɨɾaɹ	makɛrarɛ
 matʃeɾatsje	maseʁasjɔ̃	matʃeratsione	maθeɾaθjon	mɐsɨɾɐsɐ̃ʊ̃	makɛratɪonɛm
 matʃeɾatsjune	maseʁasjɔ̃	matʃeratsione	maθeɾaθjon	mɐsɨɾɐsɐ̃ʊ̃	makɛratɪonɛm
 makru	mɛɡʁ	maɡro	maɣɾo	maɡɹʊ	makrʊm
-məduvə	məɔl	midollo	meoʎo	miolʊ	mɛdʊllam
+məduvə	məɔl	midollo	meoʎo	miolʊ	mɛdʊllʊm
 madʒie	maʒi	madʒia	maxja	mɐʒiɐ	maɡɪam
 madʒisteɾiw	maʒistɛʁ	madʒistɛro	maxisteɾjo	mɐʒiʃtɛɾjʊ	maɡɪstɛrɪʊm
 madʒistral	maʒistʁal	madʒistrale	maxistɾal	mɐʒiʃtɹɑl	maɡɪstralɛm
@@ -7486,7 +7485,7 @@ minim	minim	minimo	minimo	minimʊ	mɪnɪmʊm
 ministru	ministʁ	ministro	ministɾo	miniʃtɹʊ	mɪnɪstrʊm
 miniw	minjɔm	minio	minjo	minjʊ	mɪnɪʊm
 minor	minœʁ	minore	menoɾ	mɨnɔɹ	mɪnɔrɛm
-mintə	(en)mɛnð(fr)	menta	mɛnta	meɪŋtɐ	mɛntʰam
+mintə	mɑ̃t	menta	mɛnta	meɪŋtɐ	mɛntʰam
 minte	mɑ̃	mente	mɛnte	meɪŋtɨ	mɛntɛm
 minuskul	minyskyl	minuskolo	minuskulo	minuʃkulʊ	mɪnʊskʊlʊm
 miɾa	miʁe	mirare	miɾaɾ	miɾaɹ	mirari
@@ -7653,7 +7652,7 @@ obstruktsie	ɔbstʁyksjɔ̃	ostrutsione	oβstɾukθjon	ɔbstɹusɐ̃ʊ̃	ɔbstr�
 obtuɾa	ɔbtyʁe	otturare	obtuɾaɾ	ɔbtuɾaɹ	ɔbturarɛ
 obtuɾatsje	ɔbtyʁasjɔ̃	otturatsione	obtuɾaθjon	ɔbtuɾɐsɐ̃ʊ̃	ɔbturatɪonɛm
 otʃean	oseɑ̃	otʃɛano	oθeano	ɔsiɐ̃nʊ	okɛanʊm
-okʲ	œj	ɔkkio	oxo	ɔʎʊ	ɔklʊm
+okʲ	œj	ɔkkio	oxo	ɔʎʊ	ɔkʊlʊm
 okru	ɔkʁ	ɔkra	okɾe	ɔkɹɨ	ɔkʰram
 oktant	ɔktɑ̃	ottante	oktante	oɪtɐ̃ŋtɨ	ɔktantɛm
 oktodʒenar	ɔktoʒenɛʁ	ottuadʒenario	oktoxenaɾjo	ɔtuʒɨnaɾjʊ	ɔktoɡenarʊm
@@ -7792,7 +7791,7 @@ peatrə	pjɛʁ	pjɛtra	pjeðɾa	pɛdɹɐ	pɛtram
 pektoɾal	pɛktoʁal	pettorale	pektoɾal	peɪtuɾɑl	pɛktɔralɛm
 pekuljar	pekyljɛʁ	pekuliare	pekuljaɾ	pekuliaɹ	pɛkulɪarɛm
 pedalə	pedal	pedale	peðal	pɨdɑl	pɛdalɛm
-pedikur	pedikyʁ	pedikure	peðikuɾa	pedikuɾɨ	pedikuram
+pedikur	pedikyʁ	pedikura	peðikuɾa	pedikuɾɨ	pedikuram
 pjez	pje	pjɛde	pje	pɛ	pɛdɛm
 pele	po	pelle	pjel	pɛlɨ	pɛllɛm
 peleɾin	pəlʁɛ̃	peleɡrino	peɾeɣɾino	peɾɨɡɹinʊ	pɛrɛɡrinʊm
@@ -8100,7 +8099,7 @@ rəʃinos	ʁezinø	rezinozo	resinoso	ʁezinozʊ	resinosʊm
 rəspunde	ʁepɔ̃dʁ	rispondere	respondeɾ	ʁeʃpuŋdeɹ	rɛspɔnderɛ
 ratsje	ʁasjɔ̃	ratsione	raθjon	ʁɐsɐ̃ʊ̃	ratɪonɛm
 ratsjonal	ʁasjɔnɛl	ratsionale	raθjonal	ʁɐsiunɑl	ratɪonalɛm
-rəw	(en)ɹi(fr)	rɛo	reo	ʁɛʊ	rɛʊm
+rəw	ʁi	rɛo	reo	ʁɛʊ	rɛʊm
 rade	ʁaze	radere	raeɾ	ʁɐeɹ	raderɛ
 real	ʁeɛl	reale	real	ʁiɑl	rɛalɛm
 reɡal	ʁwajal	reale	real	ʁiɑl	reɡalɛm
@@ -8115,7 +8114,7 @@ rekizitsje	ʁekizisjɔ̃	rekwizitsione	rekisiθjon	ʁekizisɐ̃ʊ̃	rɛkwisitɪo
 retʃiprotʃitate	ʁesipʁosite	retʃiprotʃita	reθipɾoθiðad	ʁesipɹusidadɨ	rɛkɪprɔkɪtatɛm
 retʃita	ʁesite	retʃitare	reθitaɾ	ʁesitaɹ	rɛkɪtarɛ
 rekrea	ʁəkʁee	rikreare	rekɾeaɾ	ʁɛkɹiaɹ	rɛkrɛarɛ
-rekreatsje	(en)ɹɛkɹieɪʃən(fr)	rikreatsione	rekɾeaθjon	ʁɛkɹiɐsɐ̃ʊ̃	rɛkrɛatɪonɛm
+rekreatsje	ʁəkʁisjɔ̃	rikreatsione	rekɾeaθjon	ʁɛkɹiɐsɐ̃ʊ̃	rɛkrɛatɪonɛm
 rektifika	ʁɛktifje	rettifikare	rektifikaɾ	ʁetifikaɹ	rɛktɪfɪkarɛ
 rekt	ʁɛkt	rɛtto	rekto	ʁɛtʊ	rektʊm
 rektor	ʁɛktœʁ	rettore	rektoɾ	ʁeɪtoɹ	rɛktorɛm
@@ -8168,7 +8167,7 @@ respekta	ʁɛspɛkte	rispettare	respektaɾ	ʁeʃpeɪtaɹ	rɛspɛktarɛ
 respiɾa	ʁɛspiʁe	respirare	respiɾaɾ	ʁeʃpiɾaɹ	rɛspirarɛ
 respiɾatsje	ʁɛspiʁasjɔ̃	respiratsione	respiɾaθjon	ʁeʃpiɾɐsɐ̃ʊ̃	respiratɪonɛm
 respiɾatsjune	ʁɛspiʁasjɔ̃	respiratsione	respiɾaθjon	ʁeʃpiɾɐsɐ̃ʊ̃	respiratɪonɛm
-responsabil	ʁɛspɔ̃sabl	reponsabile	responsaβle	ʁeʃpuŋsavɛl	rɛspɔnsabɪlɛm
+responsabil	ʁɛspɔ̃sabl	responsabile	responsaβle	ʁeʃpuŋsavɛl	rɛspɔnsabɪlɛm
 restauɾa	ʁɛstoʁe	restaurare	restaʊɾaɾ	ʁeʃtaʊɾaɹ	restaʊrarɛ
 restauɾator	ʁɛstoʁatœʁ	restauratore	restaʊɾaðoɾ	ʁeʃtaʊɾɐdoɹ	rɛstaʊratorɛm
 restitutsje	ʁɛstitysjɔ̃	restitutsione	restituθjon	ʁeʃtituɪsɐ̃ʊ̃	restɪtutɪonɛm
@@ -8203,7 +8202,7 @@ ridikol	ʁidikyl	ridikolo	riðikulo	ʁidikulʊ	ridɪkʊlʊm
 riɡɔaɾe	ʁiɡœʁ	riɡore	riɣoɾ	ʁiɡoɹ	rɪɡorɛm
 rimə	ʁim	rima	rima	ʁimɐ	rhytʰmʊm
 rɨntʃed	ʁɑ̃s	rantʃido	ranθjo	ʁɐ̃ŋsʊ	raŋkɪdʊm
-ritm	(en)ɹɪθm(fr)	ritmo	ritmo	ʁitmʊ	rhytʰmʊm
+ritm	ʁitm	ritmo	ritmo	ʁitmʊ	rhytʰmʊm
 rinikʲ	ʁoɲɔ̃	roɲone	riɲon	ʁiŋ	rɛnɪkʊlʊm
 ritwal	ʁityɛl	rituale	ritwal	ʁituɑl	ritʊalɛm
 rival	ʁival	rivale	riβal	ʁivɑl	riwalɛm
@@ -8418,7 +8417,7 @@ spik	epi	spiɡa	espiɣa	ʃpiɡɐ	spikam
 spikul	spikyl	spiɡolo	esplieɣo	ʃpiʃʊ	spikʊlʊm
 spin	spɛ̃	spina	espina	ʃpiɲɐ	spinam
 spiɾit	ɛspʁi	spirito	espiɾitu	ʃpiɾitʊ	spirɪtʊm
-spiɾitwal	(en)spɪɹɪtʃuəl(fr)	spirituale	espiɾitwal	ʃpiɾituɑl	spirɪtʊalɛm
+spiɾitwal	spiʁityɔl	spirituale	espiɾitwal	ʃpiɾituɑl	spirɪtʊalɛm
 spital	opital	ospitale	ospital	uʃpitɑl	hɔspɪtalɛm
 splendid	splɑ̃did	splɛndido	esplendiðo	ʃpleɪŋdidʊ	splɛndɪdʊm
 splendɔaɾe	splɑ̃dœʁ	splendore	esplendoɾ	ʃpleɪŋdoɹ	splɛndorɛm
@@ -8527,7 +8526,7 @@ tenatʃe	tənas	tenatʃe	tenaθ	tɨnaʃ	tɛnakɛm
 tenatʃitate	tənasite	tenatʃita	tenaθiðad	tenɐsidadɨ	tɛnakɪtatɛm
 tenje	tenja	tɛnia	tenja	tenjɐ	taɪnɪam
 teoɾemə	teoʁɛm	teorɛma	teoɾema	tiuɾemɐ	tʰɛorema
-teɾebint	(en)teɪɹeɪbɪnð(fr)	terebinto	teɾeβinto	teɾɨbiŋtʊ	tɛrɛbɪntʰʊm
+teɾebint	teʁebɛ̃t	terebinto	teɾeβinto	teɾɨbiŋtʊ	tɛrɛbɪntʰʊm
 teɾestru	tɛʁɛstʁ	terrɛstre	terestɾe	teʁɛʃtɹɨ	tɛrrɛstrɛm
 teɾibil	tɛʁibl	terribile	teriβle	teʁivɛl	tɛrrɪbɪlɛm
 teɾikol	tɛʁikɔl	terrikolo	terikolo	teʁikulʊ	tɛrrɪkɔlʊm

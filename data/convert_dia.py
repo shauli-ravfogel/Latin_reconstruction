@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-with open("all-orto.txt", "r") as f:
+with open("all-original.txt", "r") as f:
 
 	lines = f.readlines()
 	
@@ -15,7 +15,7 @@ for i, line in enumerate(lines):
 	lines[i] = line
 	
 
-with open("all-orto-no-diac.txt", "w") as f:
+with open("all-original-no-diac.txt", "w") as f:
 
 	for line in lines:
 	

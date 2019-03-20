@@ -1,17 +1,14 @@
 #!/bin/bash          
+            
+dataset="orto"
+batch=10
+optimizer="adam"
+model_type="lstm"
+model_size=150
+dropout=0.2
+running_id=4;
 
-
-# trained with linear = False
-
-dataset="orto-no-diac"
-batch=5
-optimizer="cyclic"
-model_type="gru"
-model_size=100
-dropout=0.1
-running_id=1;
-
-python3 create_dataset.py 1 $dataset;
+python3 create_dataset.py $running_id $dataset;
 
 sleep 5;
-python3 main.py --running_id $running_id --model_size $model_size --batch_size $batch --dropout $dropout --optimizer $optimizer --network $model_type --dynet-autobatch 1
+python3 main.py --running_id $running_id --model_size $model_size --batch_size $batch --dropout $dropout --optimizer $optimizer --network $model_type --dynet-autobatch 1 --dynet-mem 1024
