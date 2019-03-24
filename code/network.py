@@ -5,6 +5,7 @@ import dynet as dy
 import numpy as np
 import random
 
+
 EMBEDDING_SIZE = 100
 LSTM_SIZE = 100
 NUM_LAYERS  = 1
@@ -12,6 +13,8 @@ REVERSE = False
 TRAIN = True
 DROPOUT = 0.1
 
+
+    
 def edit_distance(s1, s2):
     s1 = s1.replace("<", "").replace(">", "")
     s2 = s2.replace("<", "").replace(">", "")
@@ -32,7 +35,7 @@ def edit_distance(s1, s2):
     
 class Network(object):
 
-    def __init__(self, C2I, I2C, model, encoders, embedding_collector, id, dropout, lstm_size, optimizer, model_type, embs_wrapper, include_embeddings):
+    def __init__(self, C2I, I2C, model, encoders, embedding_collector, att_collector, id, dropout, lstm_size, optimizer, model_type, embs_wrapper, include_embeddings, features):
     
         self.C2I = C2I
         self.I2C = I2C
@@ -46,7 +49,9 @@ class Network(object):
         self.embedding_collector = embedding_collector
         self.embedding_provider = embs_wrapper
         self.include_embeddings = include_embeddings
+        self.att_collector = att_collector
         self.best_acc = -1
+        self.features = features
         self.accs = [-1, -1]
         
     def add_parameters(self, dropout, lstm_size, optimizer, model_type, include_embeddings, gru = True):
@@ -85,11 +90,11 @@ class Network(object):
         self.b_att = self.model.add_parameters((lstm_size, 1))
         self.b_direct = self.model.add_parameters((len(self.C2I), 1))
         self.E_lang = self.model.add_lookup_parameters((7, EMBEDDING_SIZE))
+        #self.W_pred = self.model.add_lookup_parameters((lstm_size + lstm_size, lstm_size))
         self.latin_semantic_rep = {}
         
-        self.W_latin_embeddings = self.model.add_lookup_parameters((EMBEDDING_SIZE, 100))
-        self.W_latin_embeddings2 = self.model.add_lookup_parameters((EMBEDDING_SIZE, EMBEDDING_SIZE))
-        self.W_query2 = self.model.add_parameters((lstm_size, 100+lstm_size))
+        #self.W_latin_embeddings = self.model.add_lookup_parameters((EMBEDDING_SIZE, 100))
+        #self.W_latin_embeddings2 = self.model.add_lookup_parameters((EMBEDDING_SIZE, EMBEDDING_SIZE))
         
         if optimizer == "sgd":   
              self.trainer = dy.SimpleSGDTrainer(self.model)
@@ -111,7 +116,7 @@ class Network(object):
                   self.latin_semantic_rep[y] = semantic_rep.npvalue()
                   return semantic_rep    
     
-    def encode(self, x, y, bilstm = False, train = True):
+    def encode0(self, x, y, bilstm = False, train = True):
             
             char_dropout = 0.0 if train else 0
             
@@ -126,8 +131,8 @@ class Network(object):
 
             #encoding_chars  = [item for sublist in encoding_chars for item in sublist]
             encoded_x = [start]
-            #if self.include_embeddings:
-            #      encoded_x.append(self._get_semantic_rep(y))
+            if self.include_embeddings:
+                  encoded_x.append(self._get_semantic_rep(y))
 
                   
             for i in range(len(encoding_chars)):
@@ -136,8 +141,8 @@ class Network(object):
                     encoded_x.append(c)
                     
             encoded_x.append(end)
-            #if self.include_embeddings:
-            #      encoded_x.append(self._get_semantic_rep(y))
+            if self.include_embeddings:
+                  encoded_x.append(self._get_semantic_rep(y))
             
  
             s = self.encoder_rnn.initial_state()
@@ -157,15 +162,77 @@ class Network(object):
             #states = [s+c for (s,c) in zip(states, encoded_x)]
             return states, encoded_x
 
-    def encode0(self, x, bilstm = False):
+    def encode1(self, x, bilstm = False, train = True):
     
-        encoded_x = [self.encoders[0].encode(c) for c in x]
+        encoded_x = [self.encoders[0].encode(c, "i") for c in x]
         s = self.encoder_rnn.initial_state()
         states = s.transduce(encoded_x)
-        states = [s+c for (s,c) in zip(states, encoded_x)]
         last_state = states[-1]   
         
         return states, encoded_x
+    
+    def encode(self, x,  bilstm = False, train = True):  
+
+        word_encodings = [self.encoders[0].encode(word, lang[0]) for lang, word in x.items()]
+                  
+        all_vecs = [self.encoders[0].encode("<", "sep")] + [item for sublist in word_encodings for item in sublist] + [self.encoders[0].encode(">", "sep")]
+        s = self.encoder_rnn.initial_state()
+        states = s.transduce(all_vecs)
+        
+        return states, all_vecs, ""
+                
+    def encode2(self, x,  bilstm = False, train = True):  
+    
+        langs = x.keys()
+        words_encodings = []
+        for lang in langs:
+                word_encoding = []
+                
+                if not self.features:
+                   for c in x[lang]:
+                
+                        word_encoding.append(self.encoders[0].encode(c, lang[0]))
+                else:
+                       word_encoding = self.encoders[0].encode(x[lang], lang[0])
+                       #print(word_encoding)
+                words_encodings.append(word_encoding)
+        
+        all_strings = ["<"]
+        all_vecs = [self.encoders[0].encode("<", "sep")]
+        
+        assert len(langs) == len(words_encodings)
+        
+        for lang, word_vecs in zip(langs, words_encodings):
+        
+                all_strings.extend(["*", lang[0], ":"])
+                all_vecs.append(self.encoders[0].encode("*", "sep"))
+                all_vecs.append(self.encoders[0].encode(lang[0], "sep"))
+                all_vecs.append(self.encoders[0].encode(":", "sep"))
+                
+                #assert len(x[lang]) == len(word_vecs)
+                
+                for c,vec in zip(x[lang], word_vecs):
+                
+                        all_strings.append(c)
+                        all_vecs.append(vec)
+                
+        all_strings.append(">")
+        all_vecs.append(self.encoders[0].encode(">", "sep"))
+        
+        #assert len(all_strings) == len(all_vecs)
+
+        s = self.encoder_rnn.initial_state()
+        states = s.transduce(all_vecs)
+        
+        if bilstm:
+                s2 = self.encoder_rnn2.initial_state()
+                states2 = s2.transduce(all_vecs[::-1])
+                states = [dy.esum([v1, v2]) for (v1, v2) in zip(states, states2[::-1])]      
+                
+        return states, all_vecs, "".join(all_strings)
+        
+        
+        
                 
     def predict_letter(self, state, y, linear = False):
     
@@ -185,21 +252,19 @@ class Network(object):
         
         return scores
         
-    def attend(self, query, states, encoded_input, y):
+    def attend(self, query, states, encoded_input):
     
         #return states[-1]
         query = dy.parameter(self.W_query) * query
-        if self.include_embeddings:
-            w_query2 = dy.parameter(self.W_query2)
-            query = w_query2 * dy.concatenate([query, self._get_semantic_rep(y)])
         
         W_att = dy.parameter(self.W_att)
         b_att = dy.parameter(self.b_att)
-        
+
         #scores = [(W_att * dy.concatenate([query, state]) + b_att) for state in states]
         #scores = [(dy.dot_product(query, dy.parameter(self.W_key) * state) + b_att) for state in states]
         scores = [dy.dot_product(query, state) for state in states]
         weights = dy.softmax(dy.concatenate(scores))
+        self.att_weights = weights.npvalue()
         #weighted_states =  dy.esum([dy.cmult(w,dy.parameter(self.W_val) * s) for (w,s) in zip(weights, states)])
         #weighted_states =  dy.esum([dy.cmult(w, s) for (w,s) in zip(weights, states)])
         weighted_states =  dy.esum([dy.cmult(w, dy.parameter(self.W_c_s)*c + dy.parameter(self.W_key) * s) for (w,s,c) in zip(weights, states, encoded_input)])
@@ -221,24 +286,24 @@ class Network(object):
 
 
         generated_string = []
-                
+        weighted_states = states[-1]        
 
         for char in y:
             true_char_encoded = self.l2e["l"].encode(char, "l")
 
-            scores = self.predict_letter(s.output(), y)
+            scores = self.predict_letter(s.output()+weighted_states, y)
 
             generated_string.append(scores)
                 
-            weighted_states = self.attend(s.output(), states, encoded_input, y)
-            #s = s.add_input(weighted_states) #s.add_input(dy.concatenate([true_char_encoded, weighted_states]))
+            weighted_states = self.attend(s.output(), states, encoded_input)
+            #s = s.add_input(weigatt_weightshted_states) #s.add_input(dy.concatenate([true_char_encoded, weighted_states]))
             s = s.add_input(dy.concatenate([true_char_encoded, weighted_states]))
             if char in self.C2I:
                 loss += dy.pickneglogsoftmax(scores, self.C2I[char])
             
         return loss, generated_string
             
-    def generate(self, states, encoded_x, y):
+    def generate(self, states, encoded_x, x, y):
         
         i = 0
         s = self.decoder_rnn.initial_state()
@@ -248,16 +313,18 @@ class Network(object):
         s = s.add_input(dy.concatenate([start_encoded, states[-1]]))
         #s = s.add_input(dy.concatenate([start_encoded, self.attend(s.output(), states)]))
         generated_string = ""
-                
+        weighted_states = states[-1]
+                 
         while i < 30:
             i+=1
-            scores = self.predict_letter(s.output(), y)
+            scores = self.predict_letter(s.output()+weighted_states, y)
             letter = self.I2C[np.argmax(scores.npvalue())]
-            #print (letter)
+
+            #if i > 1: self.att_collector.collect(self.att_weights, x, letter, y, i)
             generated_string += letter
             char_encoded =  self.l2e["l"].encode(letter, "l")
-            
-            weighted_states = self.attend(s.output(), states, encoded_x, y)
+
+            weighted_states = self.attend(s.output(), states, encoded_x)
             #s = s.add_input(weighted_states) #s.add_input(dy.concatenate([char_encoded, weighted_states]))
             s = s.add_input(dy.concatenate([char_encoded, weighted_states]))
 
@@ -266,15 +333,14 @@ class Network(object):
                
         return generated_string
             
-        
-            
+  
             
     def train(self, train_data, dev_data, num_epochs = 150, batch_size = 10):
 
         for I in range(num_epochs):
-        
+
                 print ("EPOCH NUMBER {}".format(I))
-                
+                self.embedding_collector.collect()
                 avg_loss = 0.
                 random.shuffle(train_data)
                 good, bad = 0., 0.
@@ -313,8 +379,8 @@ class Network(object):
                         dy.renew_cg()
                             
                     
-                    encoded_state, encoded_x = self.encode(x, y, train = True)
-                    
+                    encoded_state, encoded_x, x_str = self.encode(x, y, train = True)
+   
                     loss, probs = self.decode(encoded_state, y, encoded_x, train = True)
                     preds.append((probs,y))
                     
@@ -345,9 +411,9 @@ class Network(object):
                 
                 if acc > self.best_acc:
                     self.best_acc = acc
-                    self.model.save("model1.m")
+                    self.model.save("model11.m")
 
-                #self.embedding_collector.collect()
+                
         
         return 0
                 
@@ -362,13 +428,15 @@ class Network(object):
         for i, (x,y) in enumerate(dev_data):
             
                 dy.renew_cg()
-                encoded_state, encoded_x = self.encode(x, y, train = False)
-                reconstruction = self.generate(encoded_state, encoded_x, y)
+                encoded_state, encoded_x, x_str = self.encode(x, y, train = False)
+
+                reconstruction = self.generate(encoded_state, encoded_x, x_str, y)
                 dis =  edit_distance(reconstruction, y)
                 avg_edit_distance += dis
                 
-                words = x.split(":")
-                words = "\t".join([w[:-2] for w in words[1:]]).replace("*", "")
+                #words = x_str.split(":")
+                #words = "\t".join([w[:-2] for w in words[1:]]).replace("*", "")
+                words = "\t".join(x.values())
 
                 to_write.append((words + "\t" + reconstruction + "\t" + y +"\t" +  str(dis) + "\t" + str("%0.3f" % ((dis/(1 * len(y))))) + "\n", dis/(1.*len(y))))
                 
@@ -380,23 +448,23 @@ class Network(object):
         self.encoder_rnn.set_dropout(DROPOUT)
         self.decoder_rnn.set_dropout(DROPOUT)
         
-        with open("preds1.txt", "w") as f:
+        with open("preds11.txt", "w") as f:
         #with open("preds-ipa.txt", "w") as f:
         
            to_write = sorted(to_write, key = lambda tup: tup[1])
            for string, _ in to_write:
            
               f.write(string)
-        """
+      
         with open("semantic_rep-cyclic.txt", "w") as f:
         
              for w,vec in self.latin_semantic_rep.items():
              
                 as_str = " ".join(["%0.3f" % x for x in vec])
                 f.write(w + "\t" + as_str + "\n")
-        """
+        
         print ("accuuracy: {}; edit distance: {}".format(good / (good + bad), avg_edit_distance/len(dev_data)))
-        print("Adam")
+        self.att_collector.checkout()
         return good / (good + bad), avg_edit_distance/len(dev_data)
 
         
